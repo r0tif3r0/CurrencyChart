@@ -1,0 +1,47 @@
+.headLine {
+    display: flex;
+    justify-content: space-between;
+}
+
+.currencyName {
+    text-transform: uppercase;
+    margin: 0;
+    line-height: 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.chart__container{
+    display: flex;
+    height: 400px;
+    width: 100%;
+}
+
+.avg__container {
+    display: flex;
+    flex: 0 0 20%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.avg__container span {
+    margin: 0;
+}
+
+.avgTitle {
+    font-size: 16px;
+    color: #667985;
+}
+
+.currency {
+    font-size: 20px;
+    color: #667985;
+}
+
+.avgValue {
+    padding-top: 20px;
+    font-size: 48px;
+    color: #F38B00;
+}
